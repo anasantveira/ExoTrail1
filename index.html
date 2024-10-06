@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <meta name="google-site-verification" content="Rvr9ywhTxusq5m0WFMveeK9eRorR3HfAqGN5JjaawRI" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>ExoTrail - Exploring Exoplanets</title>
+
+
+    <link rel="sitemap" type="application/xml" href="./sitemap.xml">
+    <meta name="robots" content="index, follow" />
+    <meta name="Author" content="Ana Cecilia">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./menu.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="planetas.css">
+</head>
+
+<body>
+
+    <div id="particles-js">
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-content">
+            <ul>
+                <li><a onclick="closeMenu()" href="#home">Home</a></li>
+                <li><a onclick="closeMenu()" href="#projects">ExoPlanets</a></li>
+                <li><a onclick="closeMenu()" href="#competencias">Exoplanet Exploration Program</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="hamburger">
+            <span class="um"></span>
+            <span class="dois"></span>
+        </div>
+    </nav>
+
+    <header id="home">
+
+        <div class="wrapper-home">
+            <div class="banner">
+                <video autoplay muted loop>
+                    <source src="./bg video.mp4" type="video/mp4">
+                </video>
+
+                <div class="content">
+                    <div class="text">
+                        <div data-aos="fade-down-right" class="paragraphy">
+                            <p>Exploring Exoplanets</p>
+                        </div>
+
+                        <h1 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">ExoTrail</h1>
+
+                    </div>
+
+                    <a class="arrow" href="#projects">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#fff"
+                            viewBox="0 0 256 256">
+                            <path
+                                d="M213.66,122.34a8,8,0,0,1,0,11.32l-80,80a8,8,0,0,1-11.32,0l-80-80a8,8,0,0,1,11.32-11.32L128,196.69l74.34-74.35A8,8,0,0,1,213.66,122.34Zm-91.32,11.32a8,8,0,0,0,11.32,0l80-80a8,8,0,0,0-11.32-11.32L128,116.69,53.66,42.34A8,8,0,0,0,42.34,53.66Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="projects">
+        <div class="wrapper">
+            <header>
+                <h2 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Ready to discover the wonders of
+                    Exoplanets?</h2>
+                <p data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Discover the main exoplanets.</p>
+            </header>
+
+            <div class="cards">
+                <div data-aos="fade-up-left" class="card left">
+                    <div class="image">
+                        <model-viewer id="centaurib" src="./Proxima_b_1_13776.glb"
+                            camera-controls></model-viewer>
+                    </div>
+
+                    <div class="text">
+                        <h3>Proxima Centauri b</h3>
+                        <p>Move the exoplanet with the mouse.</p>
+                    </div>
+                    <div class="info">
+                        <h1>Information</h1>
+                    </div>
+                    <div class="info2">
+                        <p>At only four light-years away, Proxima Centauri b is our closest known exoplanet neighbor.
+                            Proxima b is a super Earth exoplanet that orbits a M-type star. Its mass is 1.27 Earths, it
+                            takes 11.2 days to complete one orbit of its star, and is 0.0485 AU from its star. Its
+                            discovery was announced in 2016.
+                        </p>
+                        <p>In the habitable zone of its star, Proxima Centauri, Proxima b encounters bouts of extreme
+                            ultraviolet radiation hundreds of times greater than Earth does from the Sun. That radiation
+                            generates enough energy to strip away not just the lightest molecules — hydrogen — but also,
+                            over time, heavier elements such as oxygen and nitrogen.</p>
+
+                    </div>
+                    <div class="image">
+                        <model-viewer id="centaurib" src="./kepler_22b.glb" camera-controls ></model-viewer>
+                    </div>
+
+                    <div class="text">
+                        <h3>Kepler 22-b</h3>
+                        <p>Move the exoplanet with the mouse.</p>
+                    </div>
+                    <div id="info4">
+                        <h1>Information</h1>
+                    </div>
+                    <div id="info5">
+                        <p>Kepler-22b is the first planet discovered inside the habitable zone of a Sun-like star. This
+                            artist’s conception from 2011, shows the first planet that NASA’s Kepler mission has
+                            confirmed to orbit the region around a star where liquid water, a requirement for life on
+                            Earth, could exist. This exoplanet is 2.4 times the size of Earth, making it the smallest
+                            yet found to orbit in the middle of the habitable zone of a star like our Sun.</p>
+                        <p>At the time scientists did not know if the planet has a predominantly rocky, gaseous or
+                            liquid composition. It’s possible that the world would have clouds in its atmosphere, as
+                            depicted here in the artist’s interpretation.</p>
+
+                    </div>
+
+                    <div class="image">
+                        <img src="image-removebg-preview (9).png" alt="51 pegasi b">
+                    </div>
+
+                    <div class="text">
+                        <h3>51 Pegasi b</h3>
+                        <p>Move the exoplanet with the mouse.</p>
+                    </div>
+                    <div id="info6">
+                        <h1>Information</h1>
+                    </div>
+                    <div id="info7">
+                        <p>51 Pegasi b is a gas giant exoplanet that orbits a G-type star. Its mass is 0.46 Jupiters, it
+                            takes 4.2 days to complete one orbit of its star, and is 0.0527 AU from its star. Its
+                            discovery was announced in 1995.</p>
+                        <p>51 Pegasi b, named Dimidium and unofficially called Bellerophon, according to the election
+                            promoted by the International Astronomical Union, is an exoplanet located approximately 50
+                            light-years from Earth in the constellation of Pegasus.</p>
+
+                    </div>
+
+                    <a href="https://pt.quizur.com/trivia/what-do-you-know-about-exoplanets-1nIAP"><button id="botao1">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <span>Test your knowledge of exoplanets!</span>
+                        </button></a>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <img class="textoPortfolio" src="./assets/PORTFOLIO TEXT.png" alt="">
+        <img class="looper um" src="./assets/LooperGroup.png" alt="">
+        <img class="looper dois" src="./assets/LooperGroup.png" alt="">
+        <img class="looper tres" src="./assets/LooperGroup.png" alt="">
+    </section>
+
+    <section id="competenciasDesktop">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #0a0a2a;
+                color: #fff;
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            #h11 {
+                text-align: center;
+                color: #d8d8d8;
+                font-size: 2.5em;
+                margin-bottom: 30px;
+            }
+
+            .exoplanet-canvas {
+                width: 100%;
+                height: 400px;
+                background-color: #000;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .controls {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 20px;
+            }
+
+            button {
+                background-color: #4a4a8a;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            button:hover {
+                background-color: #6a6aaa;
+            }
+
+            .info-panel {
+                background-color: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            @keyframes twinkle {
+                0% {
+                    opacity: 0.5;
+                }
+
+                50% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 0.5;
+                }
+            }
+        </style>
+        </head>
+
+        <body>
+            <div class="container">
+                <h1 id="h11">ExoArt: Exploring Exoplanets Through Art</h1>
+                <div class="exoplanet-canvas" id="exoplanetCanvas"></div>
+                <div class="controls">
+                    <button id="newPlanet">New Exoplanet</button>
+                    <button id="addStar">Add Star</button>
+                    <button id="changeLandscape">Change Landscape</button>
+                </div>
+                <div class="info-panel" id="infoPanel">
+                    <h2>About Exoplanets</h2>
+                    <p>Exoplanets are planets that orbit stars outside our Solar System. They come in many different
+                        sizes, compositions, and conditions!</p>
+                </div>
+            </div>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+            <script>
+                let canvas;
+                let stars = [];
+                let exoplanet;
+                let landscape;
+
+                function setup() {
+                    canvas = createCanvas(document.getElementById('exoplanetCanvas').offsetWidth, 400);
+                    canvas.parent('exoplanetCanvas');
+                    colorMode(HSB);
+
+                    createNewPlanet();
+                    createLandscape();
+
+                    document.getElementById('newPlanet').addEventListener('click', createNewPlanet);
+                    document.getElementById('addStar').addEventListener('click', addStar);
+                    document.getElementById('changeLandscape').addEventListener('click', createLandscape);
+                }
+
+                function draw() {
+                    background(0);
+
+                    // Draw stars
+                    for (let star of stars) {
+                        star.display();
+                    }
+
+                    // Draw landscape
+                    landscape.display();
+
+                    // Draw exoplanet
+                    exoplanet.display();
+                }
+
+                function createNewPlanet() {
+                    let size = random(100, 300);
+                    let hue = random(360);
+                    exoplanet = new Exoplanet(width / 2, height / 2, size, hue);
+                    updateInfoPanel();
+                }
+
+                function addStar() {
+                    stars.push(new Star(random(width), random(height)));
+                }
+
+                function createLandscape() {
+                    landscape = new Landscape();
+                }
+
+                class Exoplanet {
+                    constructor(x, y, size, hue) {
+                        this.x = x;
+                        this.y = y;
+                        this.size = size;
+                        this.hue = hue;
+                        this.atmosphere = random(10, 30);
+                    }
+
+                    display() {
+                        noStroke();
+                        // Atmosphere
+                        fill(this.hue, 30, 100, 0.2);
+                        ellipse(this.x, this.y, this.size + this.atmosphere * 2);
+
+                        // Planet body
+                        fill(this.hue, 80, 90);
+                        ellipse(this.x, this.y, this.size);
+
+                        // Surface details
+                        for (let i = 0; i < 5; i++) {
+                            fill((this.hue + random(-20, 20) + 360) % 360, 60, 70);
+                            let detailSize = random(this.size * 0.1, this.size * 0.3);
+                            let angle = random(TWO_PI);
+                            let distance = random(this.size * 0.2, this.size * 0.4);
+                            ellipse(this.x + cos(angle) * distance, this.y + sin(angle) * distance, detailSize);
+                        }
+                    }
+                }
+
+                class Star {
+                    constructor(x, y) {
+                        this.x = x;
+                        this.y = y;
+                        this.size = random(1, 3);
+                        this.twinkleSpeed = random(0.03, 0.06);
+                    }
+
+                    display() {
+                        fill(255, 255, 255, 0.5 + sin(frameCount * this.twinkleSpeed) * 0.5);
+                        ellipse(this.x, this.y, this.size);
+                    }
+                }
+
+                class Landscape {
+                    constructor() {
+                        this.points = [];
+                        for (let x = 0; x <= width; x += 20) {
+                            this.points.push({
+                                x: x,
+                                y: random(height * 0.6, height * 0.8)
+                            });
+                        }
+                        this.color = color(random(360), 70, 30);
+                    }
+
+                    display() {
+                        noStroke();
+                        fill(this.color);
+                        beginShape();
+                        vertex(0, height);
+                        for (let point of this.points) {
+                            vertex(point.x, point.y);
+                        }
+                        vertex(width, height);
+                        endShape(CLOSE);
+                    }
+                }
+
+                function updateInfoPanel() {
+                    let panel = document.getElementById('infoPanel');
+                    panel.innerHTML = `
+                  <h2>About This Exoplanet</h2>
+                  <p>Size: ${Math.round(exoplanet.size)} units</p>
+                  <p>Main color: ${Math.round(exoplanet.hue)}°</p>
+                  <p>Atmosphere thickness: ${Math.round(exoplanet.atmosphere)} units</p>
+                  <p>This unique exoplanet has fascinating characteristics! What do you think could live on it? How would the climate be?</p>
+                `;
+                }
+            </script>
+
+
+
+
+
+
+
+
+
+
+            <div class="wrapper">
+                <div class="content">
+                    <header>
+                        <h2 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Objectives of the Exoplanet
+                            Exploration Program</h2>
+                    </header>
+
+                    <div class="cards">
+                        <div data-aos="fade-right" data-aos-offset="450" data-aos-easing="ease-in-sine"
+                            class="card one">
+                            <span>Detecting and characterizing exoplanets</span>
+                            <p>NASA aims to identify exoplanets and determine their characteristics, such as size, mass,
+                                density, and orbit.</p>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="card two">
+                            <span>Finding exoplanets in habitable zones</span>
+                            <p>NASA searches for exoplanets located in habitable zones, meaning at a distance from their
+                                star that allows liquid water to exist.</p>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine"
+                            class="card three">
+                            <span>Detecting signs of life</span>
+                            <p>NASA looks for signs of life on exoplanets, such as the presence of oxygen, methane,
+                                water vapor, and other chemical indicators.</p>
+                        </div>
+
+                        <div data-aos="fade-right" data-aos-offset="50" data-aos-easing="ease-in-sine" class="card for">
+                            <span>Identifying other bodies in solar systems</span>
+                            <p>NASA seeks to identify other celestial bodies that exist within solar systems.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <img class="textoHabilidades" src="./assets/HABILIDADES.png" alt="">
+    </section>
+
+    <section id="sobre">
+        <div class="wrapper">
+            <div data-aos="fade-up-right" class="image">
+                <img id="LOGO" src="./EXOQUEST__2_-removebg-preview.png" alt="ExoTrail LOGO">
+                
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <a id="buttonHome" class="show" target="_blank" href="">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+        </svg>
+    </a>
+
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS(
+            {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#0053a5"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.2,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": true,
+                            "speed": 0,
+                            "size_min": 0,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#aeafff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1.5735393620871414,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            }
+        )
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 1200,
+            }
+        );
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

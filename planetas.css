@@ -1,0 +1,102 @@
+#centaurib{
+    width: 500px;
+    height: 500px;
+    left: 30px;
+}
+
+.info{
+    color: #d8d8d8;
+    height: 50px;
+    position: absolute;
+    left:550px;
+    font-size: 30px;
+    bottom: 1600px;
+}
+
+.info2{
+    position: absolute;
+    left: 580px;
+    font-size: 30px;
+    bottom: 1360px;
+    width: 700px;
+}
+
+#info4{
+    color: #d8d8d8;
+    height: 50px;
+    position: absolute;
+    left: 550px;
+    font-size: 30px;
+    bottom: 1000px;
+}
+
+#info5{
+    position: absolute;
+    left: 580px;
+    font-size: 30px;
+    width: 700px;
+    bottom: 780px;
+}
+
+#info6{
+    color: #d8d8d8;
+    height: 50px;
+    position: absolute;
+    left: 550px;
+    font-size: 30px;
+    bottom: 400px;
+}
+
+#info7{
+    position: absolute;
+    left: 580px;
+    font-size: 30px;
+    width: 700px;
+    bottom: 200px;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+#botao1{
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    position: absolute;
+    left: 630px;
+    bottom: 50px;
+    width: 400px;
+  }
+  
+  button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  button:hover span {
+    transform: translateX(7px);
+  }
+  
+#LOGO{
+    position: relative;
+    left: 400px;
+}
+    
+
